@@ -1,6 +1,7 @@
 # Advanced-C
 This repository consists of advanced C programming concepts and gives a good fundamental approach to Procedural Programming.
-In order to get solid grasp on the concepts the chapters are divided into different books as follows 
+
+Each folder is a standalone project. You will find a Makefile in each folder.
 
 Platform used to write the C code is gcc (Ubuntu 6.2.0-5ubuntu12) 6.2.0 20161005
 
@@ -13,15 +14,28 @@ Platform used to write the C code is gcc (Ubuntu 6.2.0-5ubuntu12) 6.2.0 20161005
    $./<filename>.out
 
 # About Directory 
-# Book1 consists-(Upcoming)
-1) Working With Memory
-2) Complex Data Types 
-3) List and Trees
-4) Tapping Into System Resources
+# DataParser
+## Overview
+* This project is an example to parse large data from text file and export it to comma seperated file.
+* Porject also uses dirent.h POSIX library to recursive do directory walk and find required text file for data parsing.
+* Care is taken to handle heap memory appriopriate to avoid memory leak
 
+## Steps to Run
 
+* Inside Dataparser folder run as follows -
+    <blockquote>
+        <p>$ make</p>
+        <p>$ make run</p>
+     </blockquote>
+  This will create info.csv and data.csv
+* To clean the directory
+        <blockquote>
+        <p>$ make clean</p>
+     </blockquote>
 
+# LinkList (Under development)
+## Overview
 
-#References
-1) Teach Your Self Advanced C 
+# misc (Under development)
+
 
